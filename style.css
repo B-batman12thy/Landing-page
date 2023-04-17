@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;700&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,500;1,300&display=swap');
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -50,6 +51,47 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  :root{
+    --pri-bright-red:hsl(12, 88%, 59%);
+    --pri-dark-blue:hsl(228, 39%, 23%);
+
+    --neu-dark-grayish-blue:hsl(227, 12%, 61%);
+    --neu-dark-blue:hsl(233, 12%, 13%);
+    --neu-pale-red:hsl(13, 100%, 96%);
+    --neu-light-gray:hsl(0, 0%, 98%);
+    
+
+  }
+  body{
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  p{
+    color:var(--neu-dark-grayish-blue)
+  }
+  h1{color: var(--pri-dark-blue);
+    
+    }
+.section1{
+  display: grid;
+  gap: 15px;
+  text-align: center;
+
+}
+button{
+  border: 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: var(--pri-bright-red);
+  font-weight: 600;
+}
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
