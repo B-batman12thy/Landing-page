@@ -66,7 +66,6 @@
   body{
     font-family:'Be Vietnam Pro', sans-serif;
     font-size: 15px;
-    font-weight: 500;
     margin: 40px;
     display: flex;
     flex-direction: column;    
@@ -79,7 +78,10 @@
     
   }
   p{
-    color:var(--neu-dark-grayish-blue)
+    color:var(--neu-dark-grayish-blue);
+    font-weight: 300px;
+    font-weight: bold;
+
   }
   h1, h2{color: var(--pri-dark-blue);
     
@@ -88,8 +90,6 @@
   display: grid;
   gap: 15px;
   text-align: center;
-  align-items: center;
-
 }
 .btn0{
   height: 40px;
@@ -99,8 +99,7 @@
 .section2{
   display: grid;
   gap: 15px;
-  text-align: center;
-  align-items: center;
+ 
 
 }
 button{
