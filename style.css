@@ -153,13 +153,29 @@ img{
 
 }
 footer{
+  display: flex;
+  flex-direction: column;
   background-color:var(--pri-dark-blue);
  color:white;
+ gap: 30px;
+ align-items: center;
+
+}
+footer research{
+  align-items: center;
 }
 .footer1 h1{
   font-size:36px ;
   color: white;
 }
+.footer2{
+  height: 250px;
+}
+.footer2 ul li{
+  list-style: none;
+  columns: 4;
+}
+
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
    .title2{
