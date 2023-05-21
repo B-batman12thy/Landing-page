@@ -169,13 +169,38 @@ footer research{
   color: white;
 }
 .footer2{
-  height: 250px;
+ display: flex;
+ gap: 80px;
 }
 .footer2 ul li{
   list-style: none;
-  columns: 4;
 }
-
+.footer2 ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.icon{
+  display:flex;
+  gap: 30px;
+}
+.icon img{
+  width:38px;
+  height:38px
+}
+input[type=text]{
+  height: 40px;
+  border-radius: 30px;
+  width: 240px;
+}
+.research{
+  display:flex;
+  gap: 20px;
+}
+.research button{
+width: 60px;
+height: 40px;
+}
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
    .title2{
